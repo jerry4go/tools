@@ -1,0 +1,13 @@
+xshell 5 无法启动的解决方法（要继续使用此程序，您必须应用最新的更新或使用新版本）
+
+替换xshell 授权文件（nslicense.dll）
+
+用UltraEdit打开xshell 根目录下面的 nslicense.dll ，搜索16进制：
+
+7F0C81F98033E1010F8680
+
+替换为：7F0C81F98033E101E98100  或  7F0C81F98033E1010F8380
+
+保存，即可顺利打开xshell 5。
+
+
